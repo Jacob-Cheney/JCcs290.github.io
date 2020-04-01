@@ -1,0 +1,68 @@
+
+body{
+
+    background-color: orange;
+    margin: 0;
+    padding 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.element
+{
+ shape-outside: circle(50%);
+ width: 300px;
+ height: 300px;
+ float: left;
+
+ }
+
+ .container
+ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.658);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+ }
+
+
+ .circle
+ {
+
+    width: 250px;
+    height: 250px;
+    background: url(jacobc.jpg);
+    background-color: #555;
+    background-size: cover;
+    float: left;
+    border-radius: 50% 50% 50% 50%;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0px;
+
+
+ }
+
+ p
+ {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 20px;
+
+ }
+
+ h1
+ {
+    margin: 0px 0px 0px 50px;
+    padding: 25px;
+    font-size: 30px;
+
+
+ }
