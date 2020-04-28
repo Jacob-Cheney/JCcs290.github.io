@@ -101,3 +101,12 @@ body{
 
    text-align: center;
  }
+
+ .paragraph-section{
+
+   display: flex;
+   margin: 25px;
+   text-align: center;
+
+
+ }

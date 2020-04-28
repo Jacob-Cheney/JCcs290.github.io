@@ -1,0 +1,255 @@
+/*
+ * Add your CSS styles to this file.
+ */
+
+
+
+
+
+
+.site-title{ text-decoration: none; color: white; 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+
+
+}
+
+
+.body{
+
+    display: flex;
+    background-color: grey;
+    
+    }
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+a:visited { text-decoration: none; 
+
+
+}
+a:hover { text-decoration: none; 
+
+
+}
+a:focus { text-decoration: none; 
+
+
+}
+a:hover, a:active { text-decoration: none; 
+    color:skyblue;
+
+}
+
+
+.twit-container {
+  
+    display: flex;
+    flex-flow: wrap; 
+    background-color: rgb(240,240,240); 
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+
+ }
+
+
+ .site-title{
+    background-color: lightskyblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+ }
+
+.site-title:visited{
+
+    color: white;
+
+
+
+}
+
+ .twit{
+
+    background-color: white;
+    margin: 5px;
+    border-radius: 2px;
+    height: 150px;
+    text-align: left;
+    flex-basis: 30%;
+ }
+
+
+.twit-icon{
+
+    display: flex;
+    position: relative;
+
+
+} 
+
+
+.twit-content{
+
+display: flexbox;
+padding: 10px;
+
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+.twit-text{
+
+    margin-bottom: 0px;
+
+
+}
+
+
+.twit-author{
+
+
+    text-align: right;
+    margin-bottom: 0px;
+
+}
+
+#create-twit-button{
+
+    font-size: 35px;
+    color: white;
+    position: fixed;
+    right: 50px;
+    top: 75%;
+    width: em;
+    margin-top: -2.5em;
+    border-radius: 50px;
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+#create-twit-button:hover{
+
+background-color: skyblue;
+height: 78px;
+width: 78px;
+
+
+
+}
+
+
+.navbar{
+
+display: flex;
+
+flex-flow: row;
+
+justify-content: flex-start;
+
+flex-shrink: 1px;
+
+}
+
+
+.navlist{
+
+display: flex;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left: 25px;
+flex-flow: row;
+padding-left: 0px;
+
+
+
+}
+
+.navitem{
+
+flex-shrink: 1;
+
+margin-right: 10px;
+margin-bottom: 0px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format('woff2');
+unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+
+
+}
+
+.navbar-search{
+
+    position: fixed;
+    left: 75%;
+
+}
+
+
+#navbar-search-button{
+
+    font-size: 15px;
+    color: black;
+    background: transparent;
+    border-color: white;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    border-style: solid;
+    position: fixed;
+    flex-shrink: 1;
+    
+
+}
+
+.navlink{
+
+border-bottom: 3px solid transparent;
+
+
+}
+
+.navlink:hover{
+
+border-bottom: 3px solid skyblue;
+
+
+
+}
+
+.navlink:active{
+
+border-bottom: 3px solid skyblue;
+
+
+}
+
+#navbar-search-button:hover{
+
+color:skyblue;
+
+
+}
+
+
+
+ul{
+
+    list-style: none;
+}
